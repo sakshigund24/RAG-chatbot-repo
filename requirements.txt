@@ -1,10 +1,10 @@
 # Install required packages
-langchain 
-langchain-google-genai 
-langchain_community 
-pypdf 
-chromadb 
-sentence-transformers -q
-google-generativeai 
-pdfplumber -q
-streamlit
+pip install langchain 
+pip install langchain-google-genai 
+pip install langchain_community 
+pip install pypdf 
+pip install chromadb 
+pip install sentence-transformers -q
+pip install google-generativeai 
+pip install pdfplumber -q
+pip install streamlit
