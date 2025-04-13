@@ -6,5 +6,5 @@ pypdf
 chromadb 
 sentence-transformers -q
 google-generativeai 
-pdfplumber -q
+pdfplumber 
 streamlit
