@@ -9,8 +9,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 
-from google.colab import userdata
-os.environ["GOOGLE_API_KEY"] = userdata.get("GEMINI_API_KEY")
+
 
 """##**Section 1: Uploading PDF**
 In this section, we'll implement the functionality to upload PDF files. For this notebook demonstration, we'll assume the PDF is in a local path.
