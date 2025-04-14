@@ -10,7 +10,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 
 
-
+os.environ["API_KEY"] = "your_api_key_here"
 """##**Section 1: Uploading PDF**
 In this section, we'll implement the functionality to upload PDF files. For this notebook demonstration, we'll assume the PDF is in a local path.
 """
